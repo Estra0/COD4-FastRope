@@ -1,0 +1,355 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+"sunlight" "1.5"
+"sundirection" "-40 290 0"
+"sundiffusecolor" ".8 .85 1"
+"suncolor" "1 .95 0.8"
+"northyaw" "90"
+"diffusefraction" ".35"
+"ambient" "0.1"
+"_color" ".85 .9 1"
+// brush 0
+{
+ ( 440 384 0 ) ( -328 384 0 ) ( -328 -448 0 ) caulk 64 64 -8 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -328 -448 8 ) ( -328 384 8 ) ( 440 384 8 ) ch_grass_02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 688 -1664 8 ) ( 1456 -1664 8 ) ( 1456 -1664 0 ) caulk 64 64 -8 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1664 -1472 8 ) ( 1664 -640 8 ) ( 1664 -640 0 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -624 1664 8 ) ( -1392 1664 8 ) ( -1392 1664 0 ) caulk 64 64 -8 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1664 1456 8 ) ( -1664 624 8 ) ( -1664 624 0 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( 496 -1672 8 ) ( 528 -1672 8 ) ( 528 -1664 8 ) caulk 64 64 -16 -1152 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 528 -1664 56 ) ( 528 -1672 56 ) ( 496 -1672 56 ) ch_concretewall02 128 128 -16 -1152 -180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 528 -1664 72 ) ( 496 -1664 72 ) ( 496 -1664 8 ) ch_concretewall04 128 -128 -16 -8 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1672 -1672 56 ) ( -1672 -1672 8 ) ( -1664 -1664 8 ) caulk 64 -64 1152 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 512 -1672 56 ) ( 512 -1672 8 ) ( -528 -1672 8 ) caulk 64 -64 -16 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1672 -1672 8 ) ( 1672 -1672 56 ) ( 1664 -1664 56 ) caulk 64 -64 1152 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+ ( -1672 -496 8 ) ( -1672 -528 8 ) ( -1664 -528 8 ) caulk 64 64 -16 -1152 90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1664 -528 56 ) ( -1672 -528 56 ) ( -1672 -496 56 ) ch_concretewall02 128 128 -16 -1152 90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1664 -528 72 ) ( -1664 -496 72 ) ( -1664 -496 8 ) ch_concretewall04 128 128 -16 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1672 1672 56 ) ( -1672 1672 8 ) ( -1664 1664 8 ) caulk 64 64 1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1672 -512 56 ) ( -1672 -512 8 ) ( -1672 528 8 ) caulk 64 64 -16 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1672 -1672 8 ) ( -1672 -1672 56 ) ( -1664 -1664 56 ) caulk 64 -64 1152 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+ ( 1672 496 8 ) ( 1672 528 8 ) ( 1664 528 8 ) caulk 64 64 -16 -1152 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1664 528 56 ) ( 1672 528 56 ) ( 1672 496 56 ) ch_concretewall02 128 128 -16 -1152 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1664 528 72 ) ( 1664 496 72 ) ( 1664 496 8 ) ch_concretewall04 128 -128 -16 -8 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1672 -1672 56 ) ( 1672 -1672 8 ) ( 1664 -1664 8 ) caulk 64 -64 1152 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1672 512 56 ) ( 1672 512 8 ) ( 1672 -528 8 ) caulk 64 -64 -16 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1672 1672 8 ) ( 1672 1672 56 ) ( 1664 1664 56 ) caulk 64 64 1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 4
+{
+ ( -496 1672 8 ) ( -528 1672 8 ) ( -528 1664 8 ) caulk 64 64 -16 -1152 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 1664 56 ) ( -528 1672 56 ) ( -496 1672 56 ) ch_concretewall02 128 128 -16 -1152 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 1664 72 ) ( -496 1664 72 ) ( -496 1664 8 ) ch_concretewall04 128 128 -16 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1672 1672 56 ) ( 1672 1672 8 ) ( 1664 1664 8 ) caulk 64 64 1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -512 1672 56 ) ( -512 1672 8 ) ( 528 1672 8 ) caulk 64 64 -16 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1672 1672 8 ) ( -1672 1672 56 ) ( -1664 1664 56 ) caulk 64 64 1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 5
+{
+ ( -1640 1664 8 ) ( -1664 1664 8 ) ( -1664 -1664 8 ) lightgrid_volume 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1672 -1664 128 ) ( -1672 1664 128 ) ( -1648 1664 128 ) lightgrid_volume 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1664 -1664 56 ) ( -1640 -1664 56 ) ( -1640 -1664 8 ) lightgrid_volume 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1664 -1592 56 ) ( 1664 1736 56 ) ( 1664 1736 8 ) lightgrid_volume 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1640 1664 56 ) ( -1664 1664 56 ) ( -1664 1664 8 ) lightgrid_volume 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1664 1664 56 ) ( -1664 -1664 56 ) ( -1664 -1664 8 ) lightgrid_volume 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 6
+{
+ ( -776 1600 -56 ) ( -1544 1600 -56 ) ( -1544 768 -56 ) sky_sp_airplane 256 256 -1152 -1152 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 752 -1728 8 ) ( 1520 -1728 8 ) ( 1520 -1728 0 ) sky_sp_airplane 256 256 -1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1728 -1536 8 ) ( 1728 -704 8 ) ( 1728 -704 0 ) sky_sp_airplane 256 256 1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -760 1728 8 ) ( -1528 1728 8 ) ( -1528 1728 0 ) sky_sp_airplane 256 256 -1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1728 1600 8 ) ( -1728 768 8 ) ( -1728 768 0 ) sky_sp_airplane 256 256 1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1544 1600 -48 ) ( -776 1600 -48 ) ( -1544 768 -48 ) sky_sp_airplane 256 256 -1152 -1152 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 7
+{
+ ( -776 1600 -56 ) ( -1544 1600 -56 ) ( -1544 768 -56 ) sky_sp_airplane 256 256 -1152 -1152 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 752 -1728 8 ) ( 1520 -1728 8 ) ( 1520 -1728 0 ) sky_sp_airplane 256 256 -1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1728 -1536 8 ) ( 1728 -704 8 ) ( 1728 -704 0 ) sky_sp_airplane 256 256 1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1728 1600 8 ) ( -1728 768 8 ) ( -1728 768 0 ) sky_sp_airplane 256 256 1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1624 1600 1672 ) ( -856 1600 1672 ) ( -1624 768 1672 ) sky_sp_airplane 256 256 -1152 -1152 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1520 -1720 8 ) ( 752 -1720 8 ) ( 1520 -1720 0 ) sky_sp_airplane 256 256 -1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 8
+{
+ ( -776 1600 -56 ) ( -1544 1600 -56 ) ( -1544 768 -56 ) sky_sp_airplane 256 256 -1152 -1152 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 752 -1728 8 ) ( 1520 -1728 8 ) ( 1520 -1728 0 ) sky_sp_airplane 256 256 -1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1728 -1536 8 ) ( 1728 -704 8 ) ( 1728 -704 0 ) sky_sp_airplane 256 256 1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -760 1728 8 ) ( -1528 1728 8 ) ( -1528 1728 0 ) sky_sp_airplane 256 256 -1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1624 1600 1672 ) ( -856 1600 1672 ) ( -1624 768 1672 ) sky_sp_airplane 256 256 -1152 -1152 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1720 -704 8 ) ( 1720 -1536 8 ) ( 1720 -704 0 ) sky_sp_airplane 256 256 1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 9
+{
+ ( -776 1600 -56 ) ( -1544 1600 -56 ) ( -1544 768 -56 ) sky_sp_airplane 256 256 -1152 -1152 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1728 -1536 8 ) ( 1728 -704 8 ) ( 1728 -704 0 ) sky_sp_airplane 256 256 1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -760 1728 8 ) ( -1528 1728 8 ) ( -1528 1728 0 ) sky_sp_airplane 256 256 -1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1728 1600 8 ) ( -1728 768 8 ) ( -1728 768 0 ) sky_sp_airplane 256 256 1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1624 1600 1672 ) ( -856 1600 1672 ) ( -1624 768 1672 ) sky_sp_airplane 256 256 -1152 -1152 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1528 1720 8 ) ( -760 1720 8 ) ( -1528 1720 0 ) sky_sp_airplane 256 256 -1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 10
+{
+ ( -776 1600 -56 ) ( -1544 1600 -56 ) ( -1544 768 -56 ) sky_sp_airplane 256 256 -1152 -1152 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 752 -1728 8 ) ( 1520 -1728 8 ) ( 1520 -1728 0 ) sky_sp_airplane 256 256 -1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -760 1728 8 ) ( -1528 1728 8 ) ( -1528 1728 0 ) sky_sp_airplane 256 256 -1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1728 1600 8 ) ( -1728 768 8 ) ( -1728 768 0 ) sky_sp_airplane 256 256 1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1624 1600 1672 ) ( -856 1600 1672 ) ( -1624 768 1672 ) sky_sp_airplane 256 256 -1152 -1152 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1720 768 8 ) ( -1720 1600 8 ) ( -1720 768 0 ) sky_sp_airplane 256 256 1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 11
+{
+ ( 752 -1728 8 ) ( 1520 -1728 8 ) ( 1520 -1728 0 ) sky_sp_airplane 256 256 -1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1728 -1536 8 ) ( 1728 -704 8 ) ( 1728 -704 0 ) sky_sp_airplane 256 256 1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -760 1728 8 ) ( -1528 1728 8 ) ( -1528 1728 0 ) sky_sp_airplane 256 256 -1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1728 1600 8 ) ( -1728 768 8 ) ( -1728 768 0 ) sky_sp_airplane 256 256 1152 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1624 1600 1672 ) ( -856 1600 1672 ) ( -1624 768 1672 ) sky_sp_airplane 256 256 -1152 -1152 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -856 1600 1664 ) ( -1624 1600 1664 ) ( -1624 768 1664 ) sky_sp_airplane 256 256 -1152 -1152 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"origin" "0.0 0.0 64.0"
+"classname" "reflection_probe"
+}
+// entity 2
+{
+"origin" "0.0 -64.0 16.0"
+"classname" "info_player_start"
+"angles" "0 90 0"
+}
+// entity 3
+{
+"script_vehiclestartmove" "0"
+"script_vehiclespawngroup" "0"
+"classname" "trigger_multiple"
+// brush 0
+{
+ ( -16 -48 0 ) ( -32 -48 0 ) ( -32 -80 0 ) trigger 64 64 0 16 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -80 192 ) ( -64 -48 192 ) ( -48 -48 192 ) trigger 64 64 0 16 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -32 -80 16 ) ( -16 -80 16 ) ( -16 -80 0 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 80 -80 16 ) ( 80 -48 16 ) ( 80 -48 0 ) trigger 64 64 -16 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -48 -32 192 ) ( -64 -32 192 ) ( -64 -32 176 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -48 192 ) ( -64 -80 192 ) ( -64 -80 176 ) trigger 64 64 -16 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 4
+{
+"script_vehicleride" "0"
+"vehicletype" "blackhawk"
+"script_vehiclestartmove" "0"
+"target" "auto1"
+"script_vehiclespawngroup" "0"
+"origin" "-2502.6 2263.4 640.0"
+"angles" "0 330 0"
+"model" "vehicle_blackhawk"
+"classname" "script_vehicle"
+}
+// entity 5
+{
+"lookahead" "1"
+"speed" "10"
+"target" "auto2"
+"targetname" "auto1"
+"origin" "-1672.0 1768.0 648.0"
+"classname" "script_struct"
+}
+// entity 6
+{
+"target" "auto6"
+"lookahead" "1"
+"speed" "10"
+"script_unload" "both"
+"targetname" "auto2"
+"origin" "-360.0 504.0 568.0"
+"classname" "script_struct"
+}
+// entity 7
+{
+"lookahead" "1"
+"speed" "10"
+"target" "auto4"
+"targetname" "auto3"
+"origin" "1528.0 1768.0 568.0"
+"classname" "script_struct"
+}
+// entity 8
+{
+"target" "auto5"
+"script_unload" "both"
+"lookahead" "1"
+"speed" "10"
+"targetname" "auto4"
+"origin" "488.0 520.0 568.0"
+"classname" "script_struct"
+}
+// entity 9
+{
+"script_vehicleride" "1"
+"classname" "script_vehicle"
+"model" "vehicle_mi17_woodland_fly"
+"angles" "0 210 0"
+"origin" "2255.2 2164.4 512.0"
+"script_vehiclespawngroup" "0"
+"target" "auto3"
+"script_vehiclestartmove" "0"
+"vehicletype" "mi17"
+}
+// entity 10
+{
+"script_vehicleride" "0"
+"spawnflags" "1"
+"origin" "-1936.0 2624.0 320.0"
+"export" "1"
+"model" "body_complete_sp_sas_ct_benjamin"
+"classname" "actor_ally_blackkit_SMG_mp5"
+}
+// entity 11
+{
+"script_vehicleride" "0"
+"spawnflags" "1"
+"origin" "-1936.0 2544.0 320.0"
+"export" "2"
+"model" "body_complete_sp_sas_ct_benjamin"
+"classname" "actor_ally_blackkit_SMG_mp5"
+}
+// entity 12
+{
+"script_vehicleride" "0"
+"spawnflags" "1"
+"origin" "-2000.0 2544.0 320.0"
+"export" "3"
+"model" "body_complete_sp_sas_ct_benjamin"
+"classname" "actor_ally_blackkit_SMG_mp5"
+}
+// entity 13
+{
+"script_vehicleride" "0"
+"spawnflags" "1"
+"origin" "-2000.0 2624.0 320.0"
+"export" "4"
+"model" "body_complete_sp_sas_ct_benjamin"
+"classname" "actor_ally_blackkit_SMG_mp5"
+}
+// entity 14
+{
+"script_vehicleride" "0"
+"spawnflags" "1"
+"origin" "-2064.0 2624.0 320.0"
+"export" "5"
+"model" "body_complete_sp_sas_ct_benjamin"
+"classname" "actor_ally_blackkit_SMG_mp5"
+}
+// entity 15
+{
+"script_vehicleride" "0"
+"spawnflags" "1"
+"origin" "-2064.0 2544.0 320.0"
+"export" "6"
+"model" "body_complete_sp_sas_ct_benjamin"
+"classname" "actor_ally_blackkit_SMG_mp5"
+}
+// entity 16
+{
+"script_vehicleride" "1"
+"spawnflags" "1"
+"origin" "1760.0 2208.0 320.0"
+"export" "7"
+"model" "body_complete_sp_spetsnaz_boris"
+"classname" "actor_enemy_merc_AR_ak74u"
+}
+// entity 17
+{
+"script_vehicleride" "1"
+"spawnflags" "1"
+"origin" "1760.0 2144.0 320.0"
+"export" "8"
+"model" "body_complete_sp_spetsnaz_boris"
+"classname" "actor_enemy_merc_AR_ak74u"
+}
+// entity 18
+{
+"script_vehicleride" "1"
+"spawnflags" "1"
+"origin" "1696.0 2144.0 320.0"
+"export" "9"
+"model" "body_complete_sp_spetsnaz_boris"
+"classname" "actor_enemy_merc_AR_ak74u"
+}
+// entity 19
+{
+"script_vehicleride" "1"
+"spawnflags" "1"
+"origin" "1696.0 2208.0 320.0"
+"export" "10"
+"model" "body_complete_sp_spetsnaz_boris"
+"classname" "actor_enemy_merc_AR_ak74u"
+}
+// entity 20
+{
+"script_vehicleride" "1"
+"spawnflags" "1"
+"origin" "1632.0 2208.0 320.0"
+"export" "11"
+"model" "body_complete_sp_spetsnaz_boris"
+"classname" "actor_enemy_merc_AR_ak74u"
+}
+// entity 21
+{
+"script_vehicleride" "1"
+"spawnflags" "1"
+"origin" "1632.0 2144.0 320.0"
+"export" "12"
+"model" "body_complete_sp_spetsnaz_boris"
+"classname" "actor_enemy_merc_AR_ak74u"
+}
+// entity 22
+{
+"script_vehicleride" "1"
+"spawnflags" "1"
+"origin" "1568.0 2144.0 320.0"
+"export" "13"
+"model" "body_complete_sp_spetsnaz_boris"
+"classname" "actor_enemy_merc_AR_ak74u"
+}
+// entity 23
+{
+"script_vehicleride" "1"
+"spawnflags" "1"
+"origin" "1568.0 2208.0 320.0"
+"export" "14"
+"model" "body_complete_sp_spetsnaz_boris"
+"classname" "actor_enemy_merc_AR_ak74u"
+}
+// entity 24
+{
+"script_noteworthy" "deleteme"
+"lookahead" "1"
+"speed" "10"
+"targetname" "auto5"
+"origin" "1768.0 -1928.0 568.0"
+"classname" "script_struct"
+}
+// entity 25
+{
+"script_noteworthy" "deleteme"
+"lookahead" "1"
+"speed" "10"
+"targetname" "auto6"
+"origin" "-264.0 -2024.0 568.0"
+"classname" "script_struct"
+}
